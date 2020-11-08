@@ -11,7 +11,7 @@ Before we can begin make sure you have [NodeJS](https://nodejs.org/en/) installe
 One of the popular packages that NodeJS developers used to send email is [nodemailer](https://nodemailer.com/about/). It allows you to easily integrate email sending to your application.
 
 ### Installation
-Let's create a project folder then initialize our [npm](https://www.npmjs.com/) by running these commands.
+Let's create a project folder then initialize our [npm](https://www.npmjs.com/) by running these commands
 ```bash
 mkdir sendemail
 cd ./sendemail
