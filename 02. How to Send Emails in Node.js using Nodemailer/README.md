@@ -108,5 +108,3 @@ Congrats, you can now send email in NodeJS.
 We can add more functionality to our email by adding email templates, receipient list, add emojis, and adding attachments. All thanks to the `Nodemailer` team which makes email sending fun and easy.
 
 Happy Coding 😃
-
-[Github Repository](https://github.com/code-n-debug/blog-02)
