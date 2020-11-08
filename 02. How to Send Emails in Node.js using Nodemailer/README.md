@@ -1,6 +1,6 @@
 One of the core functionality of an application is to send an email to the users. This email notification allows you to know what's happening in your account or transaction.
 
-Luckily NodeJS provides an easy way to send an email.
+Luckily, NodeJS provides an easy way to send an email.
 
 # Prerequisite.
 
@@ -8,7 +8,7 @@ Before we can begin make sure you have [NodeJS](https://nodejs.org/en/) installe
 
 # Getting Started
 
-One of the popular packages that NodeJS developer used to send email is [nodemailer](https://nodemailer.com/about/). It allows you to easily integrate email sending to your application.
+One of the popular packages that NodeJS developers used to send email is [nodemailer](https://nodemailer.com/about/). It allows you to easily integrate email sending to your application.
 
 ### Installation
 Let's create a project folder then initialize our [npm](https://www.npmjs.com/) by running these commands.
@@ -98,7 +98,7 @@ transport.sendMail({
 });
 ```
 
-Now you will rrecipientething like this.
+Now you will receive something like this.
 ![MailTrap - Inbox](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/02.%20How%20to%20Send%20Emails%20in%20Node.js%20using%20Nodemailer/assets/p2.png)
 
 Congrats, you can now send email in NodeJS.
