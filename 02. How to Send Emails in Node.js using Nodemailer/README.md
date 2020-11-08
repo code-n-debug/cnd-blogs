@@ -67,7 +67,7 @@ You can follow these steps to setup your `MailTrap` account.
 2. Verify your account by `confirming` your email.
 3. After you verify, login to your account then, go to `My Inbox`
 4. Click Integrations, then select `nodemailer`. You should see something like this.
-![MailTrap - Nodemailer Integration](./p1.png)
+![MailTrap - Nodemailer Integration](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/02.%20How%20to%20Send%20Emails%20in%20Node.js%20using%20Nodemailer/assets/p1.png)
 We can now use this transport to test our email sender.
 
 Let's create a message for our email sender.
@@ -99,7 +99,7 @@ transport.sendMail({
 ```
 
 Now you will rrecipientething like this.
-![MailTrap - Inbox](./p2.png)
+![MailTrap - Inbox](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/02.%20How%20to%20Send%20Emails%20in%20Node.js%20using%20Nodemailer/assets/p2.png)
 
 Congrats, you can now send email in NodeJS.
 
