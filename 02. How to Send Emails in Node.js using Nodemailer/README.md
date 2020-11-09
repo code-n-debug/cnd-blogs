@@ -70,7 +70,7 @@ You can follow these steps to setup your `MailTrap` account.
 
 ![MailTrap - Nodemailer Integration](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/02.%20How%20to%20Send%20Emails%20in%20Node.js%20using%20Nodemailer/assets/p1.png)
 
-We can now use this transport to test our email sender.
+<p>We can now use this transport to test our email sender.</p>
 
 Let's create a message for our email sender.
 ```javascript
