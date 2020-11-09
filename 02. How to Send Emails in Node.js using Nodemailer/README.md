@@ -2,7 +2,7 @@ One of the core functionality of an application is to send an email to the users
 
 Luckily, NodeJS provides an easy way to send an email.
 
-# Prerequisite.
+# Prerequisite
 
 Before we can begin make sure you have [NodeJS](https://nodejs.org/en/) installed in your machine. You need to have at least node v6 or the latest.
 
