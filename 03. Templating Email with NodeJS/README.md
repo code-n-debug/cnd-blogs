@@ -132,4 +132,4 @@ With this you can now send simple notification to your users like Email Verifica
 
 We hope this could help you in your future applications.
 
-Happy Coding :)
+Happy Coding 😃
