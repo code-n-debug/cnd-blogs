@@ -12,7 +12,7 @@ Email template is a simple "HTML with CSS" file that renders in your inbox.
 
 Our Email Template looks like this:
 
-![Figure 1 - Email Template](./assets/f1.png)
+![Figure 1 - Email Template](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f1.png)
 
 ## Coding
 
@@ -54,7 +54,7 @@ transport
 
 Now you will receive this cool email.
 
-![Figure 2 - Inbox Preview](/assets/f2.png)
+![Figure 2 - Inbox Preview](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/assets/f2.png)
 
 ## Static HTML to Dynamic Email
 
@@ -120,11 +120,11 @@ We will be using this `{{variable}}` format that tells the handlebar engine to r
 Our HTML should now look like this.
 The `name` is the variable that is passed through the `template` function.
 
-![Figure 3 - Handlebar template](./assets/f3.png)
+![Figure 3 - Handlebar template](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f3.png)
 
 Running the `email.js` would result to this:
 
-![Figure 4 - Inbox Result](./assets/f4.png)
+![Figure 4 - Inbox Result](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f4.png)
 
 # Summary
 
