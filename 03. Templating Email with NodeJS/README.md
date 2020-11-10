@@ -54,7 +54,7 @@ transport
 
 Now you will receive this cool email.
 
-![Figure 2 - Inbox Preview](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/assets/f2.png)
+![Figure 2 - Inbox Preview](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f2.png)
 
 ## Static HTML to Dynamic Email
 
