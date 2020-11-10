@@ -1,6 +1,6 @@
 Branding is a process of giving a meaning to a company or organization. So it's really important to customize the way your email should look like and behave in the user's inbox.
 
-Today, we are going to send a templated email in [NodeJS](https://nodejs.org/en/) using [Nodemailer](https://nodemailer.com/).
+Today, we are going to send a templated email in [NodeJS](https://nodejs.org/en/) using [Nodemailer](https://nodemailer.com/) and [Handlebars](https://handlebarsjs.com/).
 
 > I highly recommend that you should check our previous [blog](https://codendebug.com/blogs/send-email-with-nodejs) before moving on.
 
