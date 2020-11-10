@@ -54,7 +54,7 @@ transport
 
 Now you will receive this cool email.
 
-![Figure 2 - Inbox Preview](./assets/f2.png)
+![Figure 2 - Inbox Preview](/assets/f2.png)
 
 ## Static HTML to Dynamic Email
 
