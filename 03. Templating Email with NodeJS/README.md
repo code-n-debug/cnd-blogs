@@ -1,6 +1,6 @@
 Branding is a process of giving a meaning to a company or organization. So it's really important to customize the way your email should look like and behave in the user's inbox.
 
-Today, we are going to send a templated email in [NodeJS](https://nodejs.org/en/) using [Nodemailer](https://nodemailer.com/).
+Today, we are going to send a templated email in [NodeJS](https://nodejs.org/en/) using [Nodemailer](https://nodemailer.com/) and [Handlebars](https://handlebarsjs.com/).
 
 > I highly recommend that you should check our previous [blog](https://codendebug.com/blogs/send-email-with-nodejs) before moving on.
 
@@ -12,7 +12,7 @@ Email template is a simple "HTML with CSS" file that renders in your inbox.
 
 Our Email Template looks like this:
 
-![Figure 1 - Email Template](./assets/f1.png)
+![Figure 1 - Email Template](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f1.png)
 
 ## Coding
 
@@ -54,7 +54,7 @@ transport
 
 Now you will receive this cool email.
 
-![Figure 2 - Inbox Preview](./assets/f2.png)
+![Figure 2 - Inbox Preview](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f2.png)
 
 ## Static HTML to Dynamic Email
 
@@ -120,11 +120,11 @@ We will be using this `{{variable}}` format that tells the handlebar engine to r
 Our HTML should now look like this.
 The `name` is the variable that is passed through the `template` function.
 
-![Figure 3 - Handlebar template](./assets/f3.png)
+![Figure 3 - Handlebar template](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f3.png)
 
 Running the `email.js` would result to this:
 
-![Figure 4 - Inbox Result](./assets/f4.png)
+![Figure 4 - Inbox Result](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/03.%20Templating%20Email%20with%20NodeJS/assets/f4.png)
 
 # Summary
 
@@ -132,4 +132,4 @@ With this you can now send simple notification to your users like Email Verifica
 
 We hope this could help you in your future applications.
 
-Happy Coding :)
+Happy Coding 😃
