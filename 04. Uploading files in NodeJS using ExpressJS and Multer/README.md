@@ -58,7 +58,7 @@ Listening on http://localhost:3000
 
 We can now visit [http://localhost:3000](http://localhost:3000).
 
-![localhost](assets/1.png)
+![localhost](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/1.png)
 
 ## Basic **upload** form
 Since we are doing **upload**, we need **form** to test our application.
@@ -76,7 +76,7 @@ app.get('/', (req,res)=>{
 
 We can now **upload** a file.
 
-![Input Upload](./assets/2.png)
+![Input Upload](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/2.png)
 
 
 After setting up our form, we can now add [multer](https://www.npmjs.com/package/multer) in our `app.js`. [Multer](https://www.npmjs.com/package/multer) is a **node.js middleware** for handling **multipart/form-data**, which is primarily used for uploading files.
@@ -129,15 +129,15 @@ app.listen(3000, ()=>{
 
 > Take note that the `name` of our `input type` should be equal to the `uploader.single` name.
 
-![Highlight](./assets/3.png)
+![Highlight](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/3.png)
 
 Re-run the application by typing `node app.js` in command line.
 
 We can now accept **file** upload into our website.
 
-![Selecting File](./assets/4.png)
+![Selecting File](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/4.png)
 
-![Selecting File](./assets/5.png)
+![Selecting File](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/5.png)
 
 # Summary
 
