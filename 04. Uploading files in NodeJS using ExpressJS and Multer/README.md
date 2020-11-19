@@ -1,6 +1,6 @@
-A **file** is a collection of data stored in one unit, identified by a filename. This can be image, csv, doc, pdf and more.
+A **file** is a collection of data stored in one unit, identified by a filename. This can be an image, csv, doc, pdf and more.
 
-Website can receive files from user through upload, and in this blog, we are going to upload files using [ExpressJS](https://expressjs.com/) and [Multer](https://www.npmjs.com/package/multer).
+Websites can receive files from user through upload, and in this blog, we are going to upload files using [ExpressJS](https://expressjs.com/) and [Multer](https://www.npmjs.com/package/multer).
 
 # Prerequisite
 
@@ -61,7 +61,7 @@ We can now visit [http://localhost:3000](http://localhost:3000).
 ![localhost](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/04.%20Uploading%20files%20in%20NodeJS%20using%20ExpressJS%20and%20Multer/assets/1.png)
 
 ## Basic **upload** form
-Since we are doing **upload**, we need **form** to test our application.
+Since we are doing **upload**, we need a **form** to test our application.
 Here is a simple **form** that **accepts** file to upload.
 ```javascript
 app.get('/', (req,res)=>{
@@ -81,7 +81,7 @@ We can now **upload** a file.
 
 After setting up our form, we can now add [multer](https://www.npmjs.com/package/multer) in our `app.js`. [Multer](https://www.npmjs.com/package/multer) is a **node.js middleware** for handling **multipart/form-data**, which is primarily used for uploading files.
 
-What we want is to **upload** file in `/fileupload` route.
+What we want is to learn how to **upload** file in `/fileupload` route.
 
 ```javascript
 // get multer libary
@@ -141,7 +141,7 @@ We can now accept **file** upload into our website.
 
 # Summary
 
-The ability to upload files on a website is a common feature that is taken for granted. By adding this functionality, you can enable users or customers to upload documents and images that makes them more engaged in your site.
+The ability to upload files on a website is a common feature that is taken for granted. By adding this functionality, you can enable users or customers to upload documents and images that makes them more engaged with your site.
 
 I hope this gives you initial idea on how you can implement a simple upload in your [NodeJS](https://nodejs.org/en/) application.
 
