@@ -121,6 +121,7 @@ const uploader = multer({
 Testing our `Custom Storage` should look like this.
 
 ![Disk 1](assets/d1.png)
+
 ![Disk 2](assets/d2.png)
 
 We can now setup our **AWS S3 uploader**.
@@ -245,6 +246,7 @@ outStream.on('finish', function () {
 ```
 
 The complete code of our `S3StorageEngine.js` should look like this.
+
 ```javascript
 const fs = require('fs');
 const path = require('path');
