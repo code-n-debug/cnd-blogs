@@ -1,8 +1,8 @@
-One way to scale your application is to offload some resources in your server. As a developer, you should know when to take advantage the use of SaaS (Software as a Service) services.
+One way to scale your application is to offload some resources in your server. As a developer, you should know when to take advantage of the use of [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)  (Software as a Service) services.
 
 A good example to scale your application is to push your file uploads into [AWS S3](https://aws.amazon.com/s3/).
 
-![Architecture](assets/archi.png)
+![Architecture](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/archi.png)
 
 > NOTE: This blog has a **Part 1** : [How to upload files in NodeJS](https://codendebug.com/blogs/upload-files-with-nodejs-express-and-multer). Check it out first before proceeding.
 
@@ -10,31 +10,31 @@ A good example to scale your application is to push your file uploads into [AWS 
 
 Before we can start uploading files into [AWS S3](https://aws.amazon.com/s3/), you first need to create an account in [AWS](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start).
 
-If you already have the account, follow these steps to get your credentials
+If you already have an account, follow these steps to get your credentials
 
 1. Create user in IAM
    
-   ![Step 0](assets/0.png)
+   ![Step 0](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/0.png)
 
 2. Add Name to your user and set **Access type** to `Programmatic access`.
    
-   ![Step 1](assets/1.png)
+   ![Step 1](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/1.png)
 
 3. Look for **S3** in **Attach existing policies** tab, then select **AmazonS3FullAccess**.
    
-   ![Step 2](assets/2.png)
+   ![Step 2](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/2.png)
 
 4. Tag it as `dev` environment.
    
-   ![Step 3](assets/3.png)
+   ![Step 3](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/3.png)
 
 5. Make sure that **AmazonS3FullAccess** is selected.
    
-   ![Step 4](assets/4.png)
+   ![Step 4](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/4.png)
 
 6. Save your `Access key ID` and `Secret access key`. We will be needing it later.
 
-   ![Step 5](assets/5.png)
+   ![Step 5](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/5.png)
 
 
 # Getting Started
@@ -60,7 +60,7 @@ class S3StorageEngine{
 
     // add a constructor to that can override the destination
     constructor(opts = null){
-        // if there is no options passed in our constructor
+        // if there is no option passed in our constructor
         // don't replace the getDestination function
         if(opts && opts.dest){
             this.getDestination = opts.dest;
@@ -120,9 +120,9 @@ const uploader = multer({
 
 Testing our `Custom Storage` should look like this.
 
-![Disk 1](assets/d1.png)
+![Disk 1](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/d1.png)
 
-![Disk 2](assets/d2.png)
+![Disk 2](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/d2.png)
 
 We can now setup our **AWS S3 uploader**.
 
@@ -130,23 +130,23 @@ We can now setup our **AWS S3 uploader**.
 
 1. Find **S3** in **AWS Management Console**
    
-   ![S3 1](./assets/s1.png)
+   ![S3 1](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s1.png)
 
 2. Create a bucket
    
-   ![S3 2](./assets/s2.png)
+   ![S3 2](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s2.png)
 
-3. Add bucket name. I name my bucket as **codendebug-uploads**.
+3. Add bucket name. I named my bucket **codendebug-uploads**.
    
-   ![S3 3](./assets/s3.png)   
+   ![S3 3](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s3.png)   
 
 4. Scroll to the bottom to create the bucket.
    
-   ![S3 4](./assets/s4.png)
+   ![S3 4](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s4.png)
 
-5. Congratulations you now have **AWS bucket**
+5. Congratulations you now have an **AWS bucket**!
 
-   ![S3 5](./assets/s5.png)
+   ![S3 5](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s5.png)
 
 We can now setup our codes to create **S3 Uploader**.
 
@@ -334,15 +334,15 @@ module.exports = S3StorageEngine;
 
 Testing our **s3 uploader** will result to this.
 
-![File Upload](assets/d1.png)
+![File Upload](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/d1.png)
 
 Notice the added `s3url`, which is the location of the **uploaded** file.
 
-![File Upload Result](assets/s7.png)
+![File Upload Result](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s7.png)
 
 Voila! You can now view your uploaded files in **AWS S3 Console**.
 
-![S3 Result](assets/s8.png)
+![S3 Result](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/05.%20Uploading%20Files%20in%20S3%20with%20NodeJS/assets/s8.png)
 
 # Summary
 
