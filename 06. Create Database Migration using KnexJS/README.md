@@ -2,7 +2,7 @@ In developing software in agile environment. Developers choose to develop their 
 This database changes should be tracked, shared and maintained in incremental manner.
 That's how schema migration tools are born. It helps developers to automate the reversal and updation of database schema.
 
-When working with [NodeJS](https://nodejs.org/en/), there is a package called [Knex.JS](http://knexjs.org/) that could help us in manage our database with less effort.
+When working with [NodeJS](https://nodejs.org/en/), there is a package called [Knex.JS](http://knexjs.org/) that could help us manage our database with less effort.
 
 # Prerequisite
 You need to have the following before proceeding:
