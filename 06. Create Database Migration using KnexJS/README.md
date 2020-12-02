@@ -1,5 +1,5 @@
-In developing software in agile environment. Developers choose to develop their source code together with the database.
-This database changes should be tracked, shared and maintained in incremental manner.
+In developing software in an agile environment, Developers choose to develop their source code together with the database.
+These database changes should be tracked, shared and maintained in an incremental manner.
 That's how schema migration tools are born. It helps developers to automate the reversal and updation of database schema.
 
 When working with [NodeJS](https://nodejs.org/en/), there is a package called [Knex.JS](http://knexjs.org/) that could help us manage our database with less effort.
@@ -10,7 +10,7 @@ You need to have the following before proceeding:
 - Database (any of the following Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle and Amazon Redshift)
 
 # What is Knex?
-[Knex.JS](http://knexjs.org/) is a sql builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle and Amazon Redshift. More than as sql builder, it also supports seeding and migration.
+[Knex.JS](http://knexjs.org/) is an sql builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle and Amazon Redshift. Knex.JS is more than an sql builder, it also supports seeding and migration.
 
 # Installing [Knex.JS](http://knexjs.org/)
 One thing you need to remember when using [Knex.JS](http://knexjs.org/), is that it is only an adapter for the database you will use.
@@ -44,7 +44,7 @@ We first need to initialize knex in our project.
 ```
 knex init
 ```
-This will create `knexfile.js` which will be using to connect to the database.
+This will create `knexfile.js` which we will be using to connect to the database.
 ```javascript
 // Update with your config settings.
 
@@ -128,7 +128,7 @@ Since we set our config to use this
 ```
 
 [Knex](http://knexjs.org/) creates `knex_migrations` and `knex_migrations_lock` tables. 
-This tables keeps track all the migration that has been done in your database through knex commands.
+These tables keep track of all the migration that has been done in your database through knex commands.
 
 # [Knex](http://knexjs.org/#Migrations-rollback) Rollback
 
