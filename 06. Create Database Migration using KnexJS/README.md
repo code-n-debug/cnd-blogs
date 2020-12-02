@@ -37,7 +37,7 @@ npm install -g knex
 # Setup
 Let's create our database in Postgres.
 
-![DB](assets/1.png)
+![DB](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/06.%20Create%20Database%20Migration%20using%20KnexJS/assets/1.png)
 
 
 We first need to initialize knex in our project.
@@ -115,7 +115,7 @@ Batch 1 run: 1 migrations
 
 Which will create the table for us.
 
-![Tables](assets/2.png)
+![Tables](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/06.%20Create%20Database%20Migration%20using%20KnexJS/assets/2.png)
 
 Since we set our config to use this 
 ```javascript
@@ -141,7 +141,7 @@ Batch 1 rolled back: 1 migrations
 
 Our table will now look like this.
 
-![Rollback](assets/3.png)
+![Rollback](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/06.%20Create%20Database%20Migration%20using%20KnexJS/assets/3.png)
 
 # Conclusion
 
