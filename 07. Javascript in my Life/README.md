@@ -11,7 +11,7 @@ At that time, I'm afraid to try [JQuery](https://jquery.com/) because it is hard
 ## Hybrid Mobile using HTML / CSS / JS
 After a few months, I move to my next job where I have to create a mobile app. 
 I don't know how to develop mobile app natively. Luckily, 
-I found [PhoneGap](https://phonegap.com/), which has a tagline **"develop in html/css/js, deploy in mobile"**. [PhoneGap](https://phonegap.com/) introduces me to JQuery Mobile which helps me develop the front-end of the application I'm working on.
+I found [PhoneGap](https://phonegap.com/), which has a tagline **"develop in html/css/js, deploy in mobile"**. [PhoneGap](https://phonegap.com/) introduces me to [JQuery Mobile](https://jquerymobile.com/) which helps me develop the front-end of the application I'm working on.
 
 > Note: PhoneGap now has ended it's service. Please refer to [this](https://blog.phonegap.com/update-for-customers-using-phonegap-and-phonegap-build-cc701c77502c) link.
 
