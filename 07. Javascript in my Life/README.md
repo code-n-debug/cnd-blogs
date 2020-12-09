@@ -45,4 +45,4 @@ Love it or hate it, it plays an important role in the software development world
 
 To show my love with JS, I recreated this [Node Garden](https://nodegarden.js.org/) to emphasize how beautiful Javascript is, in action!
 
-![Node Garden](./assets/a.gif)
+![Node Garden](https://raw.githubusercontent.com/code-n-debug/cnd-blogs/main/07.%20Javascript%20in%20my%20Life/assets/a.gif)
